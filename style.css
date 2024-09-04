@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    
+}
+body{
+    width:100%;
+    margin :0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    background-position: cover;
+
+   
+}
+.navbar{
+    width:100%;
+    height:66px;
+    background-color: rgb(22, 236, 79);
+    display: flex;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+ 
+}
+.nav-prime1{
+    width: 12%;
+    height: 100%;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+   
+}
+#Prime-logo{
+    width:94px;
+    height:20px;
+    padding-left: 73px;
+    padding-top: 23px;
+    cursor: pointer;
+ 
+}
+.nav-prime2{
+    height: 100%;
+    width:42%;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+.nav-prime2 a{
+    color: white;
+    text-decoration: none;
+    border: 11px solid;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(0, 0, 0);
+}
+.nav-prime2 a:hover{
+    border: 11px solid;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
+    color:black;
+
+}
+.nav-prime2 ul{
+    list-style-type:none;
+    color:white;
+    display: flex;
+    padding-top: 23px;
+    padding-left: 1px;
+}
+.fbl-icon{
+    height:15px;
+}
+.sub{
+    position: relative;
+    bottom: 1px;
+}
+.nav-prime2 ul li{
+    padding-left: 35px;
+    
+    
+}
+.nav-prime3{
+    height: 100%;
+    width:46%;
+    background-color: rgb(2, 2, 2);
+}
+.nav-prime3 a{
+    color: white;
+    text-decoration: none;
+    border: 11px solid;
+    border-radius: 15px;
+    border-color: black;
+    background-color: black;
+}
+.nav-prime3 a:hover{
+    border: 11px solid;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+.nav-prime3 ul{
+    list-style-type:none;
+    color:white;
+    display: flex;
+    padding-top: 23px;
+    padding-left:  188px;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+}
+.nav-prime3 ul li{
+    padding-left: 25px;
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+}
+.headimg{
+    position: relative;
+    bottom: -10px;
+    width: 33px;
+    height: 33px;
+}
+.links3{
+    position: relative;
+    bottom: 18px;
+    border-radius: 15px;
+    
+}
+.container1{
+    background-color: green;
+    height: 500px;
+    color: white;
+}
+.container1 img{
+    width:100%;
+    height: 500px;
+}
+
+
+.cont1{
+    position: absolute;
+    top: 110px;
+    padding-left: 59px;
+    width: 650px;
+}
+.h3{
+    border:4px solid rgb(26, 152, 255);
+    background-color: rgb(26, 152, 255);
+    border-width: 13px;
+    border-radius: 7px;
+    padding-right: 20px;
+    width: 183px;
+    padding-left: 61px;
+}
+.h1{
+    font-size: 43px;
+}
+.h2{
+    font-size: 21px;
+}
+.pic1{
+    position: relative;
+}
+
+
+
+.container2{
+    height: 500px;
+    background-color: brown;
+    color: white;
+}
+.container2 img{
+    width:100%;
+    height: 500px;
+}
+.cont2{
+    position: absolute;
+    top:585px;;
+    padding-left: 59px;
+    width: 650px;
+}
+.h3-2{
+    border:4px solid rgb(26, 152, 255);
+    background-color: rgb(26, 152, 255);
+    border-width: 13px;
+    border-radius: 7px;
+    padding-right: 20px;
+    width: 161px;
+    padding-left: 96px;
+}
+.h1-2{
+    font-size: 39px; 
+}
+.h2-2{
+    font-size:21px;
+}
+.pic1{
+    position: relative;
+}
+
+
+
+.container3{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    color: rgb(2, 2, 2);
+    display: flex;
+}
+.h1-3{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    margin-top: 30px;
+}
+.h2-3{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.cont3{
+   
+    padding-left: 59px;
+    width: 650px; 
+    width: 50%;
+}
+
+.grid-image{
+
+    display: grid;
+    margin-top: 10px;
+    padding: 0px;
+    grid-template-columns: auto auto auto;
+    border-right: 20px;
+    column-gap: 5px;
+    
+    
+   
+   
+}
+.images{
+    width: 221px;
+    height:153px;
+    
+}
+.images:hover{
+    box-shadow: 3px 1px 4px 0;
+}
+.footer{
+    width:100%;
+    height:130px;
+    background-color:black;
+    color:  rgb(26, 152, 255);
+    display: grid;
+    justify-items:center;
+    align-items: center;
+
+  }
+  .final{
+    display: flex;
+  }
+  .p{
+    color: gray;
+  }
